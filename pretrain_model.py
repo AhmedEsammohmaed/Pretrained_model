@@ -8,8 +8,7 @@ Original file is located at
 """
 
 
-# 2. Install Python libraries for ML, Computer Vision, and Geometry Processing
-!pip install -q transformers torch torchvision pillow opencv-python shapely accelerate pdf2image
+
 
 import json
 import os
@@ -452,9 +451,7 @@ if uploaded_files:
 #         )
 #         st.json(json_output)
 
-# 1. Download Cloudflare Tunnel binary
-!wget -q -O cloudflared https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
-!chmod +x cloudflared
+
 
 # 2. Run Streamlit and expose it via Cloudflare in the background
 import subprocess
