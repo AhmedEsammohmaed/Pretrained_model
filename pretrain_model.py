@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1IbwuCj_KzPwQOPAcs-U9NfMSWTQxK6v3
 """
 
-# 1. Install system utilities for PDF handling
-!apt-get update -y && !apt-get install -y poppler-utils
 
 # 2. Install Python libraries for ML, Computer Vision, and Geometry Processing
 !pip install -q transformers torch torchvision pillow opencv-python shapely accelerate pdf2image
